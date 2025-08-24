@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright © 2025 github.com/dtiberio
+
 # Heart Disease Prediction - Interactive TUI Inference Application
 # Professional clinical decision support tool with Rich TUI
 

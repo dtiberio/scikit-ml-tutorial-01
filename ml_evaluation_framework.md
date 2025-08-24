@@ -1,3 +1,8 @@
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+Copyright © 2025 github.com/dtiberio
+-->
+
 # ML Model Evaluation Framework
 
 A standardized framework for evaluating and comparing supervised machine learning models (Linear Regression, Logistic Regression, etc.) with consistent testing protocols and result formats.

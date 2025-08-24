@@ -1,3 +1,8 @@
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+Copyright © 2025 github.com/dtiberio
+-->
+
 # Heart Disease Prediction ML Pipeline - Training Plan
 
 This tutorial outlines a comprehensive machine learning pipeline for predicting heart disease using Logistic Regression on the UCI Heart Disease dataset.

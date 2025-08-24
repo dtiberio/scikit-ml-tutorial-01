@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright © 2025 github.com/dtiberio
+
 """
 Breast Cancer Prediction TUI Application
 

@@ -1,3 +1,8 @@
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+Copyright © 2025 github.com/dtiberio
+-->
+
 # ML Pipeline Template for Supervised Learning
 
 A comprehensive template for building supervised machine learning pipelines using scikit-learn. This template provides a standardized approach for data analysis, model training, testing, and deployment across regression and classification tasks.

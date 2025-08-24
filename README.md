@@ -1,3 +1,8 @@
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+Copyright © 2025 github.com/dtiberio
+-->
+
 # Machine Learning Pipeline Framework
 
 A comprehensive, standardized framework for supervised machine learning projects using Python and scikit-learn. This repository provides complete end-to-end ML pipelines with training, testing, evaluation, and interactive deployment tools.

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright © 2025 github.com/dtiberio
+
 # Debug script to test model loading and basic prediction
 import os
 import joblib

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright © 2025 github.com/dtiberio
+
 # Heart Disease Prediction ML Pipeline - Testing Script
 # Following the comprehensive plan for model testing and evaluation
 

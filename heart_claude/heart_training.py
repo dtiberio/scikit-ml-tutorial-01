@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright © 2025 github.com/dtiberio
+
 # Heart Disease Prediction ML Pipeline - Training Script
 # Following the comprehensive plan for Logistic Regression model training
 

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# Copyright © 2025 github.com/dtiberio
+
 #!/usr/bin/env python3
 """
 Breast Cancer Model Testing Suite
