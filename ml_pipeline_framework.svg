@@ -1,0 +1,298 @@
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define gradients for phase backgrounds -->
+    <linearGradient id="phase1Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bbdefb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase2Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase3Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f5e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c8e6c9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="phase4Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff3e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffcc80;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Drop shadow filter -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    ML Pipeline Framework - 4-Phase Architecture
+  </text>
+  
+  <!-- Phase 1: Dataset Analysis & Model Recommendation -->
+  <g>
+    <rect x="50" y="80" width="250" height="520" rx="15" ry="15" 
+          fill="url(#phase1Gradient)" stroke="#1976d2" stroke-width="2" filter="url(#dropShadow)"/>
+    <text x="175" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1976d2">
+      Phase 1: Analysis
+    </text>
+    <text x="175" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#1976d2">
+      Steps 1-4
+    </text>
+    
+    <!-- Phase 1 Steps -->
+    <circle cx="85" cy="170" r="8" fill="#1976d2"/>
+    <text x="105" y="175" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      1. Initial Dataset Review
+    </text>
+    <text x="105" y="190" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Load data, check memory, basic info
+    </text>
+    
+    <circle cx="85" cy="230" r="8" fill="#1976d2"/>
+    <text x="105" y="235" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      2. Data Quality Analysis
+    </text>
+    <text x="105" y="250" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Missing values, duplicates, features
+    </text>
+    
+    <circle cx="85" cy="290" r="8" fill="#1976d2"/>
+    <text x="105" y="295" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      3. Model Recommendation
+    </text>
+    <text x="105" y="310" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Smart algorithm selection
+    </text>
+    
+    <circle cx="85" cy="350" r="8" fill="#1976d2"/>
+    <text x="105" y="355" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      4. Summary Report
+    </text>
+    <text x="105" y="370" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Analysis overview, next steps
+    </text>
+    
+    <!-- Outputs -->
+    <rect x="70" y="420" width="210" height="60" rx="5" fill="#e3f2fd" stroke="#1976d2"/>
+    <text x="175" y="440" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#1976d2">
+      📊 Outputs
+    </text>
+    <text x="175" y="455" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#333">
+      • Dataset analysis report
+    </text>
+    <text x="175" y="470" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#333">
+      • Model recommendations
+    </text>
+  </g>
+  
+  <!-- Arrow 1 to 2 -->
+  <path d="M 300 340 Q 340 340 340 340 L 370 340" stroke="#2c3e50" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 2: Training Pipeline -->
+  <g>
+    <rect x="370" y="80" width="250" height="520" rx="15" ry="15" 
+          fill="url(#phase2Gradient)" stroke="#7b1fa2" stroke-width="2" filter="url(#dropShadow)"/>
+    <text x="495" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+      Phase 2: Training
+    </text>
+    <text x="495" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7b1fa2">
+      Steps 5-16
+    </text>
+    
+    <!-- Phase 2 Steps -->
+    <circle cx="405" cy="170" r="8" fill="#7b1fa2"/>
+    <text x="425" y="175" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      5-6. Data Preprocessing
+    </text>
+    <text x="425" y="190" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Pipeline creation, train-test split
+    </text>
+    
+    <circle cx="405" cy="230" r="8" fill="#7b1fa2"/>
+    <text x="425" y="235" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      7-10. Model Training
+    </text>
+    <text x="425" y="250" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Multiple algorithms, cross-validation
+    </text>
+    
+    <circle cx="405" cy="290" r="8" fill="#7b1fa2"/>
+    <text x="425" y="295" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      11-13. Model Selection
+    </text>
+    <text x="425" y="310" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Performance comparison, best model
+    </text>
+    
+    <circle cx="405" cy="350" r="8" fill="#7b1fa2"/>
+    <text x="425" y="355" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      14-16. Model Persistence
+    </text>
+    <text x="425" y="370" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Save artifacts, metadata, pipeline
+    </text>
+    
+    <!-- Outputs -->
+    <rect x="390" y="420" width="210" height="60" rx="5" fill="#f3e5f5" stroke="#7b1fa2"/>
+    <text x="495" y="440" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+      🤖 Outputs
+    </text>
+    <text x="495" y="455" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#333">
+      • Trained model pipeline
+    </text>
+    <text x="495" y="470" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#333">
+      • Model artifacts and metadata
+    </text>
+  </g>
+  
+  <!-- Arrow 2 to 3 -->
+  <path d="M 620 340 Q 660 340 660 340 L 690 340" stroke="#2c3e50" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 3: Testing & Evaluation -->
+  <g>
+    <rect x="690" y="80" width="250" height="520" rx="15" ry="15" 
+          fill="url(#phase3Gradient)" stroke="#388e3c" stroke-width="2" filter="url(#dropShadow)"/>
+    <text x="815" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#388e3c">
+      Phase 3: Testing
+    </text>
+    <text x="815" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#388e3c">
+      Steps 17-28
+    </text>
+    
+    <!-- Phase 3 Steps -->
+    <circle cx="725" cy="170" r="8" fill="#388e3c"/>
+    <text x="745" y="175" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      17-20. Model Testing
+    </text>
+    <text x="745" y="190" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Load model, comprehensive metrics
+    </text>
+    
+    <circle cx="725" cy="230" r="8" fill="#388e3c"/>
+    <text x="745" y="235" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      21-24. Advanced Analysis
+    </text>
+    <text x="745" y="250" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Error analysis, feature validation
+    </text>
+    
+    <circle cx="725" cy="290" r="8" fill="#388e3c"/>
+    <text x="745" y="295" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      25-26. Performance Review
+    </text>
+    <text x="745" y="310" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Threshold optimization, comparison
+    </text>
+    
+    <circle cx="725" cy="350" r="8" fill="#388e3c"/>
+    <text x="745" y="355" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      27-28. Framework Compliance
+    </text>
+    <text x="745" y="370" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Standardized JSON results
+    </text>
+    
+    <!-- Outputs -->
+    <rect x="710" y="420" width="210" height="60" rx="5" fill="#e8f5e8" stroke="#388e3c"/>
+    <text x="815" y="440" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#388e3c">
+      📈 Outputs
+    </text>
+    <text x="815" y="455" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#333">
+      • Test results and metrics
+    </text>
+    <text x="815" y="470" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#333">
+      • Performance grade and analysis
+    </text>
+  </g>
+  
+  <!-- Arrow 3 to 4 -->
+  <path d="M 940 340 Q 980 340 980 340 L 1010 340" stroke="#2c3e50" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 4: Interactive TUI Application -->
+  <g>
+    <rect x="1010" y="80" width="180" height="520" rx="15" ry="15" 
+          fill="url(#phase4Gradient)" stroke="#f57c00" stroke-width="2" filter="url(#dropShadow)"/>
+    <text x="1100" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#f57c00">
+      Phase 4: TUI
+    </text>
+    <text x="1100" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#f57c00">
+      Steps 29-35
+    </text>
+    
+    <!-- Phase 4 Steps -->
+    <circle cx="1045" cy="170" r="8" fill="#f57c00"/>
+    <text x="1065" y="175" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      29-30. TUI Setup
+    </text>
+    <text x="1065" y="190" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Framework, model loading
+    </text>
+    
+    <circle cx="1045" cy="230" r="8" fill="#f57c00"/>
+    <text x="1065" y="235" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      31-32. User Interface
+    </text>
+    <text x="1065" y="250" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Input collection, validation
+    </text>
+    
+    <circle cx="1045" cy="290" r="8" fill="#f57c00"/>
+    <text x="1065" y="295" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      33-34. Predictions
+    </text>
+    <text x="1065" y="310" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Real-time inference, display
+    </text>
+    
+    <circle cx="1045" cy="350" r="8" fill="#f57c00"/>
+    <text x="1065" y="355" font-family="Arial, sans-serif" font-size="11" fill="#333">
+      35. Deployment
+    </text>
+    <text x="1065" y="370" font-family="Arial, sans-serif" font-size="9" fill="#666">
+      Professional interface
+    </text>
+    
+    <!-- Outputs -->
+    <rect x="1030" y="420" width="140" height="60" rx="5" fill="#fff3e0" stroke="#f57c00"/>
+    <text x="1100" y="440" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#f57c00">
+      🖥️ Outputs
+    </text>
+    <text x="1100" y="455" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#333">
+      • Interactive app
+    </text>
+    <text x="1100" y="470" font-family="Arial, sans-serif" font-size="9" text-anchor="middle" fill="#333">
+      • Production ready
+    </text>
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom Framework Features -->
+  <rect x="50" y="630" width="1140" height="50" rx="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="620" y="650" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    🏗️ Framework Features
+  </text>
+  <text x="200" y="668" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">
+    Pipeline Architecture
+  </text>
+  <text x="400" y="668" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">
+    Data Leakage Prevention
+  </text>
+  <text x="620" y="668" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">
+    Standardized Testing
+  </text>
+  <text x="840" y="668" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">
+    Performance Grading
+  </text>
+  <text x="1040" y="668" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#2c3e50">
+    Production Ready
+  </text>
+  
+</svg>

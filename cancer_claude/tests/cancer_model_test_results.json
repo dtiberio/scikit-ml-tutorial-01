@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-23T16:53:34.185975",
+    "model_path": "D:\\EISNT\\ML_Python_10810\\ML_03\\cancer_claude\\models\\breast_cancer_model.pkl",
+    "framework_version": "1.0",
+    "model_id": "breast_cancer_lr_v1",
+    "test_description": "Breast cancer model comprehensive evaluation"
+  },
+  "tests": {
+    "model_loading": {
+      "status": "PASS",
+      "model_type": "Pipeline",
+      "feature_count": 30,
+      "test_samples": 114
+    },
+    "accuracy": {
+      "value": 0.9736842105263158,
+      "status": "PASS",
+      "threshold": 0.8
+    },
+    "precision_recall_f1": {
+      "precision_macro": 0.9741062479117941,
+      "recall_macro": 0.9692460317460317,
+      "f1_macro": 0.9715828832571666,
+      "precision_weighted": 0.9737105878629081,
+      "recall_weighted": 0.9736842105263158,
+      "f1_weighted": 0.9736164257756981,
+      "status": "PASS"
+    },
+    "confusion_matrix": {
+      "matrix": [
+        [
+          71,
+          1
+        ],
+        [
+          2,
+          40
+        ]
+      ],
+      "status": "PASS"
+    },
+    "roc_auc": {
+      "value": 0.996031746031746,
+      "status": "PASS",
+      "threshold": 0.8
+    },
+    "clinical_metrics": {
+      "sensitivity": 0.9523809523809523,
+      "specificity": 0.9861111111111112,
+      "ppv": 0.975609756097561,
+      "npv": 0.9726027397260274,
+      "false_positive_rate": 0.013888888888888888,
+      "false_negative_rate": 0.047619047619047616,
+      "status": "PASS"
+    },
+    "precision_recall_auc": {
+      "value": 0.994214569817921,
+      "baseline": 0.3684210526315789,
+      "status": "PASS"
+    }
+  },
+  "summary": {
+    "total_tests": 7,
+    "passed": 7,
+    "failed": 0,
+    "overall_status": "PASS",
+    "key_metrics": {
+      "primary_metric": "roc_auc",
+      "primary_value": 0.996031746031746,
+      "performance_grade": "EXCELLENT"
+    }
+  }
+}
